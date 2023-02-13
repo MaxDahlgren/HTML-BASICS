@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <style>
+        .background {
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <title>CodeStackr</title>
+</head>
+<body>
+    <!-- Headings -->
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <hr>
+        <!-- Divs and paragraphs -->
+    <div>
+        <p title="This is a tooltip">Lorem ipsum dolor sit <strong>amet</strong> consectetur <em>adipisicing</em> elit. Totam accusantium ipsam molestias, alias vitae corporis modi minus quod maiores consequuntur perspiciatis iste amet doloribus itaque officiis velit maxime laborum sint.</p><p>Lorem ipsum dolor sit amet <mark>consectetur</mark> <small>adipisicing</small> elit. <del>Totam</del> accusantium ipsam molestias, alias vitae corporis modi minus quod maiores consequuntur perspiciatis iste amet doloribus itaque officiis velit maxime laborum sint.
+        </p><p class="background">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusantium ipsam molestias, <span style="color:red">alias vitae corporis modi minus quod maiores consequuntur perspiciatis iste amet doloribus itaque officiis velit maxime laborum sint.</span>
+        </p>
+    </div>
+    
+        <!-- Bookmark -->
+    <a href="#bookmark">bookmark</a>
+        <!-- List examples -->
+    <ol type="1" start="25">
+        <li>List Item 1</li>
+            <ul>
+             <li>Sub Bullet 1</li>
+             <li>Sub Bullet 2</li>
+            </ul>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ol>
+        <!-- Table examples -->
+<table>
+    <caption>This is a caption</caption>
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>35</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Jill Smith</td>
+            <td>555-555-5555</td>
+            <td>777-777-7777</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <tr>
+        <th>Name:</th>
+        <td>JillSmith</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Telephone</th>
+        <td>555-555-5555</td>
+    </tr>
+    <tr>
+        <td>777-777-7777</td>
+    </tr>
+</table>
+<br>
+<hr>
+<br>
+    <!-- Form example -->
+<form action="server.php">
+    <fieldset>
+        <legend> Personal information:</legend>
+        First Name: <br>
+        <input type="text" name="firstname" value="" placeholder="First Name here"><br>
+        Last Name:<br>
+        <input type="text" name="lastname" value=""><br>
+        <input type="radio" name="options"> Option 1
+        <input type="radio" name="options"> Option 2<br>
+        <input type="checkbox" name="checkboxes" checked> Checkbox1
+        <input type="checkbox" name="checkboxes"> Checkbox2
+        <input type="checkbox" name="checkboxes"> Checkbox3<br>
+        <label for="carSelect">Select:</label>
+        <select name="cars" id="carSelect">
+            <option value="BMW">BMW</option>
+            <option value="Volvo">Volvo</option>
+            <option value="Audi">Audi</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+</form>
+
+<!-- Button and bookmarkparagraph -->
+<button>Click ME</button>
+<p id="bookmark">this is a paragraph</p>
+
+</html>
